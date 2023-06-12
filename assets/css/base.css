@@ -1,0 +1,45 @@
+:root {
+    --white-color: #FFF;
+    --black-color:#000;
+    --text-color:#333;
+}
+*{
+    box-sizing: inherit;
+}
+html {
+    scroll-behavior: smooth;
+    font-size:62.5%;
+    line-height: 1.8rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+div{
+    font-size: 12px;
+}
+.grid
+{
+    width:1200px;
+    max-width: 100%;
+    margin:0 auto;
+}
+.gird__full-width
+{
+    width:100%;
+}
+.grid__row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 -5px;
+}
+.grid__column
+{
+    margin:0 -5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+img
+{
+    width: 100%;
+}
