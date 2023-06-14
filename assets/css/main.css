@@ -78,7 +78,7 @@
 
 
 #advantage h3{
-    width: 317px;
+    width: fit-content;
     height: 72px;
     color: #564E4E;
     font-family: 'Poppins';
@@ -129,7 +129,7 @@
     height: 75px;
 }
 .content__text h3{
-    width: 497px;
+    width: fit-content;
     height: 72px;
     font-family: 'Poppins';
     font-style: normal;
