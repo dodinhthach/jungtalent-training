@@ -1,5 +1,6 @@
 /* PC */
 @media(min-width:1025px){}
+
 /*Mobile*/
 @media (max-width:739px){
     #navbar li{
@@ -102,4 +103,19 @@
         width: 100%;
         height: 200px;
     }
+}
+@media(max-width:370px){
+    #input__group{
+        width: 85%;
+    }
+    #email{
+        position: relative;
+        width: 90%;
+    }
+    .btn{
+        position: absolute;
+        left: 75%;
+        top: 5px;
+    }
+
 }
